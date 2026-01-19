@@ -6,3 +6,4 @@ access_coworking_service_admin,coworking.service.admin,model_coworking_service,g
 access_coworking_booking_admin,coworking.booking.admin,model_coworking_booking,group_coworking_admin,1,1,1,1
 access_coworking_booking_user,coworking.booking.user,model_coworking_booking,group_coworking_user,1,1,1,0
 access_quick_wizard,quick.booking.wizard,model_quick_booking_wizard,base.group_user,1,1,1,1
+access_coworking_manager_shift,coworking.manager.shift,model_coworking_manager_shift,base.group_user,1,1,1,1

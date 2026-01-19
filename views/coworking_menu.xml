@@ -41,4 +41,10 @@
               parent="menu_coworking_config"
               action="action_coworking_service"
               sequence="40"/>
+
+    <menuitem id="menu_manager_shifts"
+              name="Manager Shifts"
+              parent="menu_coworking_root"
+              action="action_manager_shift"
+              sequence="25"/>
 </odoo>

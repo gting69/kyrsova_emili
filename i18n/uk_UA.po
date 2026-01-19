@@ -513,7 +513,14 @@ msgstr "Нараховані бонуси"
 msgid "Total Bonuses"
 msgstr "Баланс бонусів"
 
+
 #. module: coworking_management
-#: model:ir.model.fields,field_description:coworking_management.field_coworking_rate__price
-msgid "Price per Hour"
-msgstr "Ціна за годину"
+#: model:ir.model,name:coworking_management.model_coworking_manager_shift
+msgid "Manager Shift"
+msgstr "Зміна менеджера"
+
+#. module: coworking_management
+#: model:ir.actions.act_window,name:coworking_management.action_manager_shift
+#: model:ir.ui.menu,name:coworking_management.menu_manager_shifts
+msgid "Manager Shifts"
+msgstr "Розклад менеджерів"
