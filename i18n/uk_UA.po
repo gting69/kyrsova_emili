@@ -1,0 +1,494 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* coworking_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-19 19:55+0000\n"
+"PO-Revision-Date: 2026-01-19 19:55+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: coworking_management
+#: model_terms:ir.ui.view,arch_db:coworking_management.report_booking_template
+msgid "<strong>Клієнт:</strong>"
+msgstr ""
+
+#. module: coworking_management
+#: model_terms:ir.ui.view,arch_db:coworking_management.report_booking_template
+msgid "<strong>Посилання:</strong>"
+msgstr ""
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_desk__active
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_room__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__activity_ids
+msgid "Activities"
+msgstr "Діяльність"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Декорація виключення діяльності"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__activity_state
+msgid "Activity State"
+msgstr "Стан діяльності"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Значок типу діяльності"
+
+#. module: coworking_management
+#: model:res.groups,name:coworking_management.group_coworking_admin
+msgid "Administrator"
+msgstr "Адміністратор"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: coworking_management
+#: model:ir.model,name:coworking_management.model_coworking_booking
+msgid "Booking"
+msgstr "Бронювання"
+
+#. module: coworking_management
+#: model_terms:ir.ui.view,arch_db:coworking_management.report_booking_template
+msgid "Booking Confirmation"
+msgstr "Підтвердження бронювання"
+
+#. module: coworking_management
+#: model:ir.actions.report,name:coworking_management.action_report_coworking_booking
+msgid "Booking Summary"
+msgstr "Резюме бронювання"
+
+#. module: coworking_management
+#: model:ir.actions.act_window,name:coworking_management.action_coworking_booking
+#: model:ir.model.fields,field_description:coworking_management.field_res_partner__booking_ids
+#: model:ir.model.fields,field_description:coworking_management.field_res_users__booking_ids
+#: model:ir.ui.menu,name:coworking_management.menu_coworking_bookings
+#: model_terms:ir.ui.view,arch_db:coworking_management.view_booking_calendar
+msgid "Bookings"
+msgstr "Бронювання"
+
+#. module: coworking_management
+#: model_terms:ir.ui.view,arch_db:coworking_management.view_quick_booking_wizard_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: coworking_management
+#: model:ir.model.fields.selection,name:coworking_management.selection__coworking_booking__state__cancelled
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_room__capacity
+msgid "Capacity"
+msgstr "Ємність"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__partner_id
+#: model:ir.model.fields,field_description:coworking_management.field_quick_booking_wizard__partner_id
+msgid "Client"
+msgstr "Клієнт"
+
+#. module: coworking_management
+#: model:ir.ui.menu,name:coworking_management.menu_coworking_config
+msgid "Configuration"
+msgstr "Конфігурація"
+
+#. module: coworking_management
+#: model_terms:ir.ui.view,arch_db:coworking_management.view_booking_form
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: coworking_management
+#: model:ir.model.fields.selection,name:coworking_management.selection__coworking_booking__state__confirmed
+msgid "Confirmed"
+msgstr "Підтверджено"
+
+#. module: coworking_management
+#: model:ir.model,name:coworking_management.model_res_partner
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_service__cost
+msgid "Cost"
+msgstr "Вартість"
+
+#. module: coworking_management
+#: model:ir.ui.menu,name:coworking_management.menu_coworking_root
+msgid "Coworking"
+msgstr "Коворкінг"
+
+#. module: coworking_management
+#: model:ir.model,name:coworking_management.model_coworking_desk
+msgid "Coworking Desk"
+msgstr "Стіл для коворкінгу"
+
+#. module: coworking_management
+#: model:ir.module.category,name:coworking_management.category_coworking
+msgid "Coworking Management"
+msgstr "Менеджмент коворкінгу"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_res_users__is_coworking_manager
+msgid "Coworking Manager"
+msgstr "Коворкінг менеджер"
+
+#. module: coworking_management
+#: model:ir.model,name:coworking_management.model_coworking_rate
+msgid "Coworking Rate"
+msgstr "Ставка коворкінгу"
+
+#. module: coworking_management
+#: model:ir.model,name:coworking_management.model_coworking_room
+msgid "Coworking Room"
+msgstr "Коворкінг кімната"
+
+#. module: coworking_management
+#: model:ir.model,name:coworking_management.model_coworking_service
+msgid "Coworking Service"
+msgstr "Служба коворкінгу"
+
+#. module: coworking_management
+#: model_terms:ir.ui.view,arch_db:coworking_management.view_quick_booking_wizard_form
+msgid "Create"
+msgstr "Створити"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__create_uid
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_desk__create_uid
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_rate__create_uid
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_room__create_uid
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_service__create_uid
+#: model:ir.model.fields,field_description:coworking_management.field_quick_booking_wizard__create_uid
+msgid "Created by"
+msgstr "Створено"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__create_date
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_desk__create_date
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_rate__create_date
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_room__create_date
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_service__create_date
+#: model:ir.model.fields,field_description:coworking_management.field_quick_booking_wizard__create_date
+msgid "Created on"
+msgstr "Створено на"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_rate__currency_id
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_room__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__desk_id
+msgid "Desk"
+msgstr "Письмовий стіл"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_desk__name
+msgid "Desk Number"
+msgstr "Номер столу"
+
+#. module: coworking_management
+#: model:ir.actions.act_window,name:coworking_management.action_coworking_desk
+#: model:ir.ui.menu,name:coworking_management.menu_coworking_desks
+msgid "Desks"
+msgstr "Письмові столи"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__display_name
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_desk__display_name
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_rate__display_name
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_room__display_name
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_service__display_name
+#: model:ir.model.fields,field_description:coworking_management.field_quick_booking_wizard__display_name
+msgid "Display Name"
+msgstr "Відображуване ім'я"
+
+#. module: coworking_management
+#: model:ir.model.fields.selection,name:coworking_management.selection__coworking_booking__state__draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__end_date
+#: model_terms:ir.ui.view,arch_db:coworking_management.report_booking_template
+msgid "End Date"
+msgstr "Дата закінчення"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__message_follower_ids
+msgid "Followers"
+msgstr "Послідовники"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (партнери)"
+
+#. module: coworking_management
+#: model:ir.model.fields,help:coworking_management.field_coworking_booking__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Значок чудового шрифту, напр. фа-завдання"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__has_message
+msgid "Has Message"
+msgstr "Є повідомлення"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__id
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_desk__id
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_rate__id
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_room__id
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_service__id
+#: model:ir.model.fields,field_description:coworking_management.field_quick_booking_wizard__id
+msgid "ID"
+msgstr "Індефікатор"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__activity_exception_icon
+msgid "Icon"
+msgstr "Зображення"
+
+#. module: coworking_management
+#: model:ir.model.fields,help:coworking_management.field_coworking_booking__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення виняткової діяльності."
+
+#. module: coworking_management
+#: model:ir.model.fields,help:coworking_management.field_coworking_booking__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення вимагають вашої уваги."
+
+#. module: coworking_management
+#: model:ir.model.fields,help:coworking_management.field_coworking_booking__message_has_error
+#: model:ir.model.fields,help:coworking_management.field_coworking_booking__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_res_partner__is_coworking_client
+#: model:ir.model.fields,field_description:coworking_management.field_res_users__is_coworking_client
+msgid "Is Coworking Client"
+msgstr "Є клієнтом коворкінгу"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__message_is_follower
+msgid "Is Follower"
+msgstr "Є послідовником"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__write_uid
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_desk__write_uid
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_rate__write_uid
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_room__write_uid
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_service__write_uid
+#: model:ir.model.fields,field_description:coworking_management.field_quick_booking_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Востаннє оновлено"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__write_date
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_desk__write_date
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_rate__write_date
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_room__write_date
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_service__write_date
+#: model:ir.model.fields,field_description:coworking_management.field_quick_booking_wizard__write_date
+msgid "Last Updated on"
+msgstr "Востаннє оновлено"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Кінцевий термін моєї діяльності"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Кінцевий термін наступної діяльності"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__activity_summary
+msgid "Next Activity Summary"
+msgstr "Підсумок наступної діяльності"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__activity_type_id
+msgid "Next Activity Type"
+msgstr "Наступний тип діяльності"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: coworking_management
+#: model:ir.model.fields,help:coworking_management.field_coworking_booking__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, які вимагають дії"
+
+#. module: coworking_management
+#: model:ir.model.fields,help:coworking_management.field_coworking_booking__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень з помилкою доставки"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_desk__is_premium
+msgid "Premium Desk"
+msgstr "Письмовий стіл преміум-класу"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_rate__price
+msgid "Price per Hour"
+msgstr "Ціна за годину"
+
+#. module: coworking_management
+#: model:ir.actions.act_window,name:coworking_management.action_quick_booking_wizard
+#: model:ir.ui.menu,name:coworking_management.menu_quick_booking
+msgid "Quick Booking"
+msgstr "Швидке бронювання"
+
+#. module: coworking_management
+#: model:ir.model,name:coworking_management.model_quick_booking_wizard
+msgid "Quick Booking Wizard"
+msgstr "Швидке бронювання візард"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__rate_id
+msgid "Rate"
+msgstr "Ставка"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_rate__name
+msgid "Rate Name"
+msgstr "Назва ставки"
+
+#. module: coworking_management
+#: model:ir.actions.act_window,name:coworking_management.action_coworking_rate
+#: model:ir.ui.menu,name:coworking_management.menu_coworking_rates
+msgid "Rates"
+msgstr "Ставки"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__name
+msgid "Ref"
+msgstr "Посилання"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__activity_user_id
+msgid "Responsible User"
+msgstr "Відповідальний користувач"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__room_id
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_desk__room_id
+#: model:ir.model.fields,field_description:coworking_management.field_quick_booking_wizard__room_id
+#: model_terms:ir.ui.view,arch_db:coworking_management.report_booking_template
+msgid "Room"
+msgstr "Кімната"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_room__name
+msgid "Room Name"
+msgstr "Назва кімнати"
+
+#. module: coworking_management
+#: model:ir.actions.act_window,name:coworking_management.action_coworking_room
+#: model:ir.ui.menu,name:coworking_management.menu_coworking_rooms
+msgid "Rooms"
+msgstr "Кімнати"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Помилка доставки SMS"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_service__name
+msgid "Service Name"
+msgstr "Назва служби"
+
+#. module: coworking_management
+#: model:ir.actions.act_window,name:coworking_management.action_coworking_service
+#: model:ir.ui.menu,name:coworking_management.menu_coworking_services
+msgid "Services"
+msgstr "Послуги"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__start_date
+#: model:ir.model.fields,field_description:coworking_management.field_quick_booking_wizard__start_date
+#: model_terms:ir.ui.view,arch_db:coworking_management.report_booking_template
+msgid "Start Date"
+msgstr "Дата початку"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__state
+msgid "Status"
+msgstr "Статус"
+
+#. module: coworking_management
+#: model:ir.model.fields,help:coworking_management.field_coworking_booking__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Статус на основі діяльності"
+"Прострочено: термін виконання вже минув"
+"Сьогодні: дата дії сьогодні"
+"Планується: майбутня діяльність."
+
+#. module: coworking_management
+#: model:ir.model.fields,help:coworking_management.field_coworking_booking__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип виняткової активності в записі."
+
+#. module: coworking_management
+#: model:ir.model,name:coworking_management.model_res_users
+#: model:res.groups,name:coworking_management.group_coworking_user
+msgid "User"
+msgstr "Користувач"

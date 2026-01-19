@@ -1,0 +1,112 @@
+<odoo>
+    <record id="action_coworking_booking" model="ir.actions.act_window">
+        <field name="name">Bookings</field>
+        <field name="res_model">coworking.booking</field>
+        <field name="view_mode">tree,form,calendar,kanban,pivot</field>
+    </record>
+
+    <record id="action_coworking_room" model="ir.actions.act_window">
+        <field name="name">Rooms</field>
+        <field name="res_model">coworking.room</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="view_booking_tree" model="ir.ui.view">
+        <field name="name">coworking.booking.tree</field>
+        <field name="model">coworking.booking</field>
+        <field name="arch" type="xml">
+            <tree decoration-info="state == 'draft'" decoration-success="state == 'confirmed'">
+                <field name="name"/>
+                <field name="partner_id"/>
+                <field name="room_id"/>
+                <field name="start_date"/>
+                <field name="end_date"/>
+                <field name="state" widget="badge"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_booking_calendar" model="ir.ui.view">
+        <field name="name">coworking.booking.calendar</field>
+        <field name="model">coworking.booking</field>
+        <field name="arch" type="xml">
+            <calendar string="Bookings" date_start="start_date" date_stop="end_date" color="partner_id">
+                <field name="partner_id"/>
+                <field name="room_id"/>
+            </calendar>
+        </field>
+    </record>
+
+    <record id="view_booking_form" model="ir.ui.view">
+        <field name="name">coworking.booking.form</field>
+        <field name="model">coworking.booking</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="action_confirm" string="Confirm" type="object" class="oe_highlight" invisible="state != 'draft'"/>
+                    <field name="state" widget="statusbar"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1><field name="name"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="partner_id"/>
+                            <field name="room_id"/>
+                            <field name="desk_id"/>
+                        </group>
+                        <group>
+                            <field name="start_date"/>
+                            <field name="end_date"/>
+                            <field name="rate_id"/>
+                        </group>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+    <record id="action_coworking_desk_2" model="ir.actions.act_window">
+        <field name="name">Desks</field>
+        <field name="res_model">coworking.desk</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="view_room_form" model="ir.ui.view">
+        <field name="name">coworking.room.form</field>
+        <field name="model">coworking.room</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="capacity"/>
+                        <field name="active"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="action_coworking_desk" model="ir.actions.act_window">
+        <field name="name">Desks</field>
+        <field name="res_model">coworking.desk</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_coworking_rate" model="ir.actions.act_window">
+        <field name="name">Rates</field>
+        <field name="res_model">coworking.rate</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_coworking_service" model="ir.actions.act_window">
+        <field name="name">Services</field>
+        <field name="res_model">coworking.service</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>
