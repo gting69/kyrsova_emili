@@ -19,9 +19,9 @@
                 <field name="name"/>
                 <field name="partner_id"/>
                 <field name="room_id"/>
-                <field name="start_date"/>
+                <field name="manager_id"/> <field name="start_date"/>
                 <field name="end_date"/>
-                <field name="state" widget="badge"/>
+                <field name="total_amount" sum="Total Amount"/> <field name="state" widget="badge"/>
             </tree>
         </field>
     </record>
@@ -51,16 +51,16 @@
                         <h1><field name="name"/></h1>
                     </div>
                     <group>
-                        <group>
+                        <group string="Client &amp; Location">
                             <field name="partner_id"/>
                             <field name="room_id"/>
                             <field name="desk_id"/>
-                        </group>
-                        <group>
+                            <field name="manager_id"/> </group>
+                        <group string="Schedule &amp; Finance">
                             <field name="start_date"/>
                             <field name="end_date"/>
                             <field name="rate_id"/>
-                        </group>
+                            <field name="total_amount"/> <field name="bonus_earned"/> </group>
                     </group>
                 </sheet>
                 <div class="oe_chatter">
@@ -71,6 +71,7 @@
             </form>
         </field>
     </record>
+
     <record id="action_coworking_desk_2" model="ir.actions.act_window">
         <field name="name">Desks</field>
         <field name="res_model">coworking.desk</field>
@@ -92,6 +93,7 @@
             </form>
         </field>
     </record>
+
     <record id="action_coworking_desk" model="ir.actions.act_window">
         <field name="name">Desks</field>
         <field name="res_model">coworking.desk</field>

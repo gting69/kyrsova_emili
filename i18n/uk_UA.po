@@ -492,3 +492,28 @@ msgstr "Тип виняткової активності в записі."
 #: model:res.groups,name:coworking_management.group_coworking_user
 msgid "User"
 msgstr "Користувач"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__manager_id
+msgid "Manager"
+msgstr "Менеджер залу"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__total_amount
+msgid "Total Amount"
+msgstr "Загальна сума"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_booking__bonus_earned
+msgid "Bonus Earned"
+msgstr "Нараховані бонуси"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_res_partner__total_bonuses
+msgid "Total Bonuses"
+msgstr "Баланс бонусів"
+
+#. module: coworking_management
+#: model:ir.model.fields,field_description:coworking_management.field_coworking_rate__price
+msgid "Price per Hour"
+msgstr "Ціна за годину"
